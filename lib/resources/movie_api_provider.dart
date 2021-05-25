@@ -24,7 +24,7 @@ class MovieApiProvider {
   }
 
   Future<MovieDetail> fetchMovieDetail(int movieId) async {
-    final resgit coponse =
+    final response =
         await client.get(Uri.parse("$_baseUrl/$movieId?api_key=$_apiKey"));
     print(response.body.toString());
     if (response.statusCode == 200) {
