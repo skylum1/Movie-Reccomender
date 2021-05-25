@@ -1,7 +1,7 @@
 ## Movie Recommendation App
 
 
-Movies app  which is developed using Flutter and powered by tmdb API. It follows bloc architecture pattern and Inherited Widget. It also uses tensorflow lite model for recommendation.
+Movies app  which is developed using Flutter and powered by tmdb API. It follows bloc architecture pattern and Inherited Widget. It also uses tensorflow lite model for offline recommendation.
 
 ### Youtube Demo 
 
@@ -17,5 +17,8 @@ Users were selected at random for inclusion. All selected users had rated at lea
 The data are contained in six files, `genome-scores.csv`, `genome-tags.csv`, `links.csv`, `movies.csv`, `ratings.csv` and `tags.csv`. More details about the contents and use of all these files follows.
 
 
+#### Training Loss plot
+
+<img src="reports/model.jpg" width="50%">
 
 
